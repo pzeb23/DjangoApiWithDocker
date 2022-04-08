@@ -3,13 +3,19 @@
 This is a recruitment task, made after hours and in a hurry.
 It's CRUD API in Django, using MySQL as a database.
 
-To run the project, make sure you have Python 3.x installed, as well as Django framework with certain libraries:
+To run the project simply copy the repository to your local machine, and then, inside the main project directory (DjangoApiWithDocker) type:
 
+`docker-compose build`
 
-And a MySQL database running locally.
+and then:
 
-I tried finding a free MySQL hosting (without giving away my credit card details) and I failed.
+`docker-compose up`
 
+Then go to the browser and type 127.0.0.1:8000
+
+---
+
+Disclaimer:
 
 There's a lof of things missing in this project. Some things may include (but may not be limited to):
 
