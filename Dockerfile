@@ -8,4 +8,4 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-CMD python3 manage.py runserver
+CMD gunicorn core.wsgi:application --bind 0.0.0.0:$PORT
