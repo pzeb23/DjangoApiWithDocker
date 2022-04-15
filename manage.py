@@ -4,7 +4,7 @@ import os
 import sys
 
 
-def wsgi():
+def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
     try:
@@ -18,5 +18,5 @@ def wsgi():
     execute_from_command_line(sys.argv)
 
 
-if __name__ == '__wsgi__':
-    wsgi()
+if __name__ == '__main__':
+    main()
