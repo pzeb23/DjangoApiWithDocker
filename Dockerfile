@@ -8,4 +8,4 @@ COPY requirements.txt requirements.txt
 
 RUN pip install -r requirements.txt
 
-CMD gunicorn django.core.wsgi:application --bind 0.0.0.0:$PORT
+CMD gunicorn django-api-docker.core.wsgi:application --bind 0.0.0.0:$PORT
