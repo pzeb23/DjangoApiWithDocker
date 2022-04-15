@@ -1,1 +1,1 @@
-web: gunicorn djangoapiwithdocker:main
+web: gunicorn djangoapiwithdocker:wsgi
